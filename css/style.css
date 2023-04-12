@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+.main_area {
+    max-width: 100%;
+    min-height: 100vh;
+    background-image: url(../images/bg.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.content {
+    max-width: 800px;
+    width: 100%;
+    min-height: 570px;
+    background-color: rgba(255, 255, 255, .1);
+    padding: 70px 0;
+}
+
+.allcontent img {
+    display: block;
+    margin: auto;
+    width: 70px;
+}
+
+.allcontent h2 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.allcontent p {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+
+/* Coundown timer start */
+h1{
+    color: #396;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+    }
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #00BF96;
+    display: inline-block;
+}
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+}
+smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+/* Coundown timer end */
+
+/* time up start  */
+.nowtime h2 {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#MyClockDisplay {
+    font-size: 50px;
+    color: #0095D5;
+}
+
+/* contact option start  */
+.contact h2 {
+    color: #fff;
+    text-transform: uppercase;
+}
+.contact ul {
+    list-style: none;
+}
+
+.contact ul li {
+    display: inline-block;
+    font-size: 40px;
+    padding: 0px 12px;
+}
+
+.fa-facebook {
+    color: #5679C0;
+}
+
+.fa-whatsapp {
+    color: green;
+}
+
+.fa-skype {
+    color: #0095D5;
+}
+
+.fa-telegram {
+    color: #34A9E4;
+}
